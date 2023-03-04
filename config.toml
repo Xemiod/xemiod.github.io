@@ -1,13 +1,13 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://xemiod.github.io/'
 languageCode = 'en-us'
-title = 'Xemiod Techlab'
+title = 'Xemiod ?lab'
 theme = 'hugo-flex'
 
 [params]
 color = "#42A5F5"
 width = "42rem"
 divider = "\\a0"
-footer = 'Except where otherwise noted, content on this site is licensed under a &#32; <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a>.'
+footer = 'Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>'
 rss = "To subscribe to this RSS feed, copy its address and paste it into your favorite feed reader."
 noClasses = true
 headingoffset = 0
