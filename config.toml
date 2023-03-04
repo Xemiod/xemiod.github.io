@@ -1,0 +1,52 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Xemiod Techlab'
+theme = 'hugo-flex'
+
+[params]
+color = "#42A5F5"
+width = "42rem"
+divider = "\\a0"
+footer = 'Except where otherwise noted, content on this site is licensed under a &#32; <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a>.'
+rss = "To subscribe to this RSS feed, copy its address and paste it into your favorite feed reader."
+noClasses = true
+headingoffset = 0
+linkicons = false
+summaries = true
+schema = false
+opengraph = true
+twittercards = true
+
+[params.utterances]
+
+[params.netlify]
+honeypot = false
+recaptcha = false
+
+[[menu.nav]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[menu.nav]]
+name = "Posts"
+url = "post/"
+weight = 2
+
+[[menu.nav]]
+name = "Tags"
+url = "tags/"
+weight = 3
+
+[[menu.nav]]
+name = "Categories"
+url = "categories/"
+weight = 4
+
+[[menu.nav]]
+name = "RSS"
+url = "index.xml"
+weight = 5
+
+[mediaTypes."font/woff2"]
+suffixes = ["woff2"]
